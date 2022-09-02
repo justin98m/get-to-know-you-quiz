@@ -1,0 +1,16 @@
+html{
+    background-color: purple;
+}
+header{
+    font-size: 40px;
+    color: white;
+}
+p,label{
+    font-size: 20px;
+    color: white;
+    margin-right: 10px;
+}
+#bar{
+    font-size: 15px;
+    margin:0;
+}

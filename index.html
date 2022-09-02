@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I Don't Know You</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+<header>Get to Know You Quiz!</header>
+<br>
+<form>
+    <label for="Fname">What is your full name?</label>
+    <input id="Fname" type="text" name="Fname" required>
+    <br>
+    <br>
+    <label for="DOB">When is your birthday?</label>
+    <input id="DOB" type="date" name="birthdate" min="1985-01-01"  max="2022-09-02"  required>
+    <br>
+    <br>
+    <label for="phonenumber">What is your phone number?</label>
+    <input id="phonenumber" type="tel" name="phonenumber" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+    <p>Format: 123-456-7890</p>
+    <label for="website">What is your favorite website?</label>
+    <input id="website" type="url" name="Web" required>
+    <p>Format: http://www.website.com</p>
+    <label for="Color">What is your favorite color?</label>
+    <input id="Color" type="color" name="Col" required>
+    <br>
+    <br>
+    <label for="Num">What's your favorite athlete's number?</label>
+    <input id="Num" type="number" name="" required>
+    <br>
+    <br>
+    <label for="Time">What time do you like to go to bed?</label>
+    <input id="Time" type="time" name="clock" required>
+    <br>
+    <br>
+    <section>
+    <p>Choose the best dish!</p>
+    <section>
+        <input id="spag" type="radio" name="dish" required>
+        <label for="spag">Spaghetti and Meatballs</label><br>
+        <input id="slmrice" type="radio" name="dish" required>
+        <label for="slmrice">Salmon & Rice</label><br>
+        <input id="pizza" type="radio" name="dish" required>
+        <label for="pizza">Pizza</label><br>
+    </section>
+    <br>
+    <label for="rating">How likely are you recommend Netflix to another</label>
+    <p id="bar">The more you fill the bar the more likely you'll reccommend </p>
+    <input id="rating" type="range" name="rating" min="0" max="10" required>
+
+    <p>Do you own any of the following:</p>
+    <label for="laptop">Laptop</label>
+    <input id="laptop" type="checkbox" name="own" required><br>
+    <label for="lawn">Lawn Mower</label>
+    <input id="lawn" type="checkbox" name="own" required><br>
+    <label for="lava">Lava Lamp</label>
+    <input type="checkbox" name="lava" required><br>
+    <br>
+    <input id="" type="submit" value="submit form" name="" required>
+
+</form>
+</body>
+</html>
